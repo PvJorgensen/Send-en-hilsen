@@ -1,5 +1,5 @@
-
+import style from './name.module.scss'
 
 export const Name = props =>{
-    return(<p>Velkommen til butikken {props.Name}</p>)
+    return(<p className={style.pTag}>Velkommen til butikken {props.Name}</p>)
 }
